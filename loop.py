@@ -6,5 +6,5 @@ for i in range(101):
     if i % 5 == 0:
         print(i)
         
-тавд_хуваагддаг = [i for i in range(0, 101) if i % 5 == 0]
-print(тавд_хуваагддаг)
+Diveded_by_five = [i for i in range(0, 101) if i % 5 == 0]
+print(Diveded_by_five)
