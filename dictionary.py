@@ -27,7 +27,16 @@ Zolboo_dic['salary']
 Monh_dic= {'name': 'Monh', 'gender': 'male', 'salary': '7000000'}
 Monh_dic['birthday'] = '1986/02/29'
 
-# pandas dataframe
+# All Dictionary
+costumer_dict['4']= Zolboo_dic
+costumer_dict['5']= Monh_dic
+
+# pandas (dataframe)
 import pandas as pd
+
+# create dataframe
+df = pd.DataFrame(costumer_dict)
+
+print(df)
 
 
